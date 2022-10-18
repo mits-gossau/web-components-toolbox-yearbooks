@@ -10,6 +10,7 @@
 
  :root {
   --bg-color-hover:white;
+  --color-disabled:#8f407a5e;
   --color-hover:#de7582;
   --color-secondary: #a66199;
   --footer-default-invert-background-color-custom: var(--m-black);
