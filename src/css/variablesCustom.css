@@ -9,6 +9,9 @@
 @import url("https://cdn.fonts.net/t/1.css?apiType=css&projectid=125846b7-fef7-43e2-bb9b-968c52e068bd");
 
  :root {
+  --bg-color-hover:white;
+  --color-hover:#de7582;
+  --color-secondary: #a66199;
   --footer-default-invert-background-color-custom: var(--m-black);
   --header-default-a-logo-top-custom: calc(62px / 2 - 90px / 2);
   --header-default-a-menu-icon-background-color-custom: var(--color);
