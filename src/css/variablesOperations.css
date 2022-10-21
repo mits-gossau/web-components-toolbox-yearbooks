@@ -19,7 +19,7 @@
   --emotion-pictures-with-logo-bg-color-custom: var(--bg-color-hover);
   --emotion-pictures-with-title-bg-background-color-custom:var(--color-secondary);
   --emotion-pictures-with-title-bg-color-custom:var(--bg-color-hover);
-  --footer-default-invert-background-color-custom: var(--m-black);
+  --footer-default-invert-background-color-custom: #471a38;
   --header-default-a-logo-top-custom: calc(62px / 2 - 90px / 2);
   --header-default-a-menu-icon-background-color-custom: var(--color);
   --header-default-background-color-custom: var(--background-color);
