@@ -12,13 +12,15 @@
   --bg-color-hover:white;
   --color-disabled:#c8dc6166;
   --color-hover:#72A94F;
+  --color-primary: #34874A;
+  --bull-color-hover: var(--m-orange-600);
   --emotion-pictures-with-button-bg-background-color-custom: var(--color-secondary);
   --emotion-pictures-with-button-bg-color-custom: var(--bg-color-hover);
   --emotion-pictures-with-logo-bg-background-color-custom: var(--color-secondary);
   --emotion-pictures-with-logo-bg-color-custom: var(--bg-color-hover);
   --emotion-pictures-with-title-bg-background-color-custom: var(--color-secondary);
   --emotion-pictures-with-title-bg-color-custom: var(--bg-color-hover);
-  --footer-default-invert-background-color-custom: #34874A;
+  --footer-default-invert-background-color-custom: var(--color-primary);
   --header-default-a-logo-top-custom: calc(62px / 2 - 90px / 2);
   --header-default-a-menu-icon-background-color-custom: var(--color);
   --header-default-background-color-custom: var(--background-color);
