@@ -31,4 +31,7 @@
   --header-default-logo-width-custom: 190px;
   --navigation-default-color-custom: var(--color);
   --ol-color:var(--color-secondary);
+  --hotspot-content-width: 55%;
+  --hotspot-picture-img-max-height: 100%;
+  --hotspot-picture-img-width: 100%;
 }
