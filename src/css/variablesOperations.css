@@ -25,8 +25,7 @@
   --emotion-pictures-with-title-bg-color-custom: var(--bg-color-hover);
   --footer-default-invert-background-color-custom: var(--color-tertiary);
   --wrapper-text-color: var(--color-tertiary);
-  --header-default-a-logo-top-custom: calc(62px / 2 - 90px / 2);
-  --header-default-a-logo-top-mobile-custom: 1em;
+  --header-default-a-logo-top-custom: calc(62px / 2 - 17px / 2);
   --header-default-a-logo-top-mobile-custom: 2em;
   --header-default-a-menu-icon-background-color-custom: var(--color);
   --header-default-background-color-custom: var(--background-color);
@@ -40,7 +39,8 @@
   --hotspot-picture-img-width: 100%;
   --hotspot-width-mobile: calc(100% - var(--content-spacing-mobile) * 2);
   --hotspot-width: 55%;
-  --logo-default-max-width: 175px;
+  --logo-default-max-width: calc(100% - 1em);
+  --logo-default-max-width-mobile: 100%;
   --navigation-alnatura-a-link-line-height: 1.5em;
   --navigation-default-color-custom: var(--color);
   --navigation-yearbooks-color-mobile-custom: var(--color);
