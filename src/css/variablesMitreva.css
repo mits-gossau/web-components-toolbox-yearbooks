@@ -61,7 +61,8 @@
     --footer-default-invert-background-color-custom: var(--color-tertiary);
     --wrapper-text-color: var(--color-tertiary);
     --header-default-a-logo-top-custom: calc(60px / 2 - 16px / 2);
-    --header-default-a-logo-top-mobile-custom: 2em;
+    --header-default-a-logo-top-mobile-custom: -10px;
+    --a-emotion-pictures-margin-top-first-child: -32px;
     --header-default-a-menu-icon-background-color-custom: var(--color);
     --header-default-background-color-custom: var(--background-color);
     --header-default-border-bottom-custom: 1px solid var(--m-gray-300);
