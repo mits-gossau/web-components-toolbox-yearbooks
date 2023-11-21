@@ -48,6 +48,8 @@
 
     --header-default-margin-custom: 0 0 2em 0;
     --header-default-margin-mobile-custom: 0 0 2em 0;
+    
+    --a-emotion-pictures-margin-top-first-child-mobile: -2em;
 
     --bull-color-hover: var(--color-secondary);
     --bull-li-before-height: 0.4em;
