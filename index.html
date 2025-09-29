@@ -15,6 +15,8 @@
   <br>
   <h3>Pages</h3>
   <div id=pages></div>
+  <h3>Molecules</h3>
+  <div id=molecules></div>
   <script>
     const pageQuery = 'rootFolder=src&css=./src/css/variablesOperations.css&logo=./src/es/components/atoms/logo/default-/default-.html&nav=./src/es/components/molecules/navigation/default-/default-.html&footer=./src/es/components/organisms/footer/default-/default-.html'
     document.querySelector('#pages').innerHTML = /* HTML */`
@@ -22,7 +24,13 @@
         <li><a href="./src/es/components/web-components-toolbox/docs/Template.html?${pageQuery}&content=./src/es/components/pages/Home.html">Home</a></li>
       </ul>
     `
+    document.querySelector('#molecules').innerHTML = /* HTML */`
+      <ul>
+        <li><a href="./src/es/components/web-components-toolbox/docs/Template.html?${pageQuery}&content=./src/es/components/molecules/table/default-/default-.html">Table</a></li>
+      </ul>
+    `
   </script>
+  
   <hr />
   <h3>web-components-toolbox</h3>
   <ul>
