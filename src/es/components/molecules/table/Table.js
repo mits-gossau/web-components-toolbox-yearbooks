@@ -73,6 +73,11 @@ export default class Table extends Shadow() {
         margin-top: -0.625rem;
       }
 
+      :host .text4 {
+        color: #62194e;
+        margin-top: -0.625rem;
+      }
+
       @media only screen and (max-width: _max-width_) {
         :host section {
           flex-direction: column;
@@ -96,6 +101,10 @@ export default class Table extends Shadow() {
       }
 
       :host .text3 {
+        margin-left: 0.625rem;
+      }
+
+      :host .text4 {
         margin-left: 0.625rem;
       }
     `
@@ -142,6 +151,11 @@ export default class Table extends Shadow() {
                 <td>
                   <h5 class="text3">${item.description}</h5>
                 </td>
+              </tr>
+              <tr>
+              <td>
+              <p class="text4">${item.extra_text}</p>
+              </td>
               </tr>
           </table>
         `).join('')}
