@@ -100,7 +100,6 @@ export default class Table extends Shadow() {
     `
     }
 
-
     return this.fetchTemplate()
   }
 
@@ -129,17 +128,17 @@ export default class Table extends Shadow() {
           <table>
               <tr>
                 <td>
-                  <p class="font-size-tiny text1">${item.label}</p>
+                  <p class="font-size-bold text1">${item.label}</p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <h3 class="text2">${item.title}</h3>
+                  <h1 class="text2">${item.title}</h1>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <h5 class="text3">${item.description}</h5>
+                  <h5 class="font-size-tiny text3">${item.description}</h5>
                 </td>
               </tr>
           </table>
