@@ -46,6 +46,7 @@ export default class Table extends Shadow() {
       }
       :host section {
         display: flex;
+        flex-wrap: wrap;
         gap: 1em;
       }
 
@@ -54,7 +55,7 @@ export default class Table extends Shadow() {
           ? '-left'
           : '-top'
         }: 0.375rem solid #62194e;
-        width: calc(50% - 1em);
+       width: calc(33.333% - 1em);
       }
 
       :host .text1 {
